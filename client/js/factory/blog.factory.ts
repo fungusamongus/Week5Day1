@@ -4,7 +4,7 @@
 
 app.factory('ParseData', ['$http','$resource', function($http, $resource) {
 	
-    var headers = {
+    var headers: Object = {
             'X-Parse-Application-Id':'8k7LXICOqCkunJ8L4dVgfnRo4UtTNvhX10FeOwDy',
             'X-Parse-REST-API-Key':'GRSF9DEbUmJOruArM9kFcec89tSttiXadJLZiPXm',
             "Content-Type": "application/json"
