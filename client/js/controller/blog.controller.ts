@@ -1,3 +1,7 @@
+interface Data {
+	results: ArrayConstructor;
+}
+
 
 app.controller('blog.controller.js', ['$scope','$location','ParseData', function ($scope, $location, ParseData) {
 	$scope.posts = [];
@@ -5,7 +9,8 @@ app.controller('blog.controller.js', ['$scope','$location','ParseData', function
 		$location.path(view)
 	}
 	
-	ParseData.query().$promise.then(function (data){
+	
+	ParseData.query().$promise.then(function (data: Data){
 		$scope.posts = data.results;
 	 })
 	$scope.viewPost = function (view: string) {
