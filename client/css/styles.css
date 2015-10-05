@@ -1,0 +1,45 @@
+
+body, html {
+	background-color: #2C3E50
+
+}
+
+.main {
+	background-color: #ECF0F1;
+	height: 100%
+}
+
+.blogName {
+	color: #2C3E50;
+}
+
+
+
+.posts {
+	background-color: #2C3E50;
+	color: #2C3E50;
+	padding: 5px;
+	padding-top: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+
+.posts h4{
+	border-bottom: 3px solid #ECF0F1;
+	background-color: #ECF0F1;
+	border-radius: 3px;
+	padding: 2px;
+}
+
+.posts p{
+	background-color: #ECF0F1;
+	padding: 3px;
+	border-radius: 3px;
+	font-size: 125%
+}
+
+.edit {
+	float: right;
+}

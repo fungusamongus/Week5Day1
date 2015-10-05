@@ -1,0 +1,23 @@
+{
+  "name": "parseblog",
+  "version": "0.0.1",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Platypi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "tsconfig-glob": "^0.1.3"
+  },
+  "description": "The objective of this project is build a blog site with angular using parse.com as a database.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fungusamongus/Week5Day1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fungusamongus/Week5Day1/issues"
+  },
+  "homepage": "https://github.com/fungusamongus/Week5Day1#readme"
+}
